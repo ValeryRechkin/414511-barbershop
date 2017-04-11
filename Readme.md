@@ -1,6 +1,7 @@
 # Учебный проект «Барбершоп»
 
 * Студент: [Валерий Речкин](https://up.htmlacademy.ru/htmlcss/17/user/414511).
+* Наставник: [Юлия Антонова] (https://up.htmlacademy.ru/htmlcss/17/user/39082).
 
 ---
 
