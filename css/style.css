@@ -1,3 +1,12 @@
+body {
+  font-size: 14px;
+  font-family: "PTSans";
+  color: rgb(0, 0, 0);
+  font-weight: normal;
+  line-height: 1.714;
+}
+
+
 h1 {
   font-size: 12,757px;
   font-family: "PTSans";
