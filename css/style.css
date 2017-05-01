@@ -1,14 +1,25 @@
+html, body{ 
+  padding: 0px;
+  margin: 0px;
+}
+
+* {
+  outline-style: dashed;
+  outline-color: aquamarine;
+  outline-width: thin
+}
+
 body {
   font-size: 14px;
   font-family: "PTSans";
   color: rgb(0, 0, 0);
   font-weight: normal;
   line-height: 1.714;
+  min-width: 960px;
 }
 
-
 h1 {
-  font-size: 12,757px;
+  font-size: 12, 757px;
   font-family: "PTSans";
   color: rgb(0, 0, 0);
   font-weight: bold;
@@ -51,8 +62,247 @@ h2 {
   font-weight: bold;
   text-transform: uppercase;
   line-height: 1.286;
+  padding: 0px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0px auto;
+  padding: 0px 10px;
+}
+
+a.header-logo {
+  width: 140px;
+  margin: 23px 20px 29px 0px;
+  float: left;
+}
+
+.top-navigation {
+  width: 620px;
+  float: left;
+  display: inline-block;
+  margin: 23px 20px 29px 0px;
+}
+
+.user-area {
+  float: right;
+  width: 100px;
+  margin: 27px 0px 29px 0px;
+  text-align: right;
+}
+
+.top-menu {}
+
+.top-navigation li {
+  float: left;
+  margin-right: 40px;
+  display: inline-block;
+}
+
+.bread-crumbs {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
+
+.bread-crumbs li {
+  float: left;
+  list-style: none;
+  margin-right: 40px;
+}
+
+.gallery {
+  float: left;
+  margin: 0px 70px 20px 0px;
 }
 
 
 
+.gallery-other: last-child {
+  padding-right: 0px;
+}
 
+figure {
+  margin: 0px;
+  padding: 0px;
+}
+
+.gallery-other img {
+  width: 140px;
+}
+
+
+
+.description {
+  float: right;
+  width: 390px;
+}
+
+.desicription-general {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.available {
+  float: left;
+}
+
+.sku {
+  float: right;
+}
+
+.desicription-summary {
+  min-height: 132px;
+  margin-bottom: 45px;
+}
+
+.desicription-price {
+  width: 190px;
+  min-height: 45px;
+  margin-bottom: 68px;
+  display: inline-block;
+}
+
+.desicription-price-value {
+  float: left;
+  background: #e5e5e5;
+  padding: 19px 26px 19px 29px;
+}
+
+.desicription-price-buy {
+  background: #000000;
+  padding: 19px 17px 19px 20px;
+  float: right;
+}
+
+.options span {
+  margin-bottom: 40px;
+}
+
+.options ul {
+  margin: 0px;
+  list-style: none;
+  padding: 0px 0px 0px 20px;
+}
+
+.about-us {
+  float: left;
+  width: 320px;
+  min-height: 85px;
+  padding: 62px 90px 43px 0px;
+}
+
+.social {
+  float: left;
+  width: 150px;
+  min-height: 80px;
+  margin: 62px 240px 52px 0px;
+  display: inline-block;
+}
+
+.developer {
+  float: right;
+  margin: 62px 0px 52px 0px;
+}
+
+.social li {
+  float: left;
+  list-style: none;
+}
+
+.developer a {
+  background: #000000;
+  width: 140px;
+  min-height: 43px;
+  padding: 17px 17px 17px 27px;
+}
+
+header {
+  background: black;
+}
+
+footer {
+  background: #232323;
+}
+
+.top-navigation ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.left-column {
+  width: 220px;
+  padding-right: 20px;
+  float: left;
+}
+
+.goods {
+  float: right;
+  width: 700px;
+}
+
+.good {
+  float: left;
+  width: 220px;
+  min-height: 287px;
+  margin: 0px 20px 20px 0px;
+}
+
+.good:nth-child(3),
+.good:nth-child(6) {
+  margin: 0px 0px 20px 0px;
+}
+
+.paginator {
+  display: inline-block;
+  list-style: none;
+  padding: 0px;
+}
+
+.paginator li {
+  float: left;
+  background: #000000;
+  width: 45px;
+  min-height: 45px;
+  margin: 45px 10px 50px 0px;
+}
+
+.paginator li:nth-child(2) {
+  background: none;
+}
+
+.vendors li {
+  list-style: none;
+}
+
+.groups li {
+  list-style: none;
+}
+
+.groups {
+  padding: 0px;
+}
+
+
+
+.gallery-other ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.gallery-other ul li {
+  float: left;
+  width: 140px;
+  margin: 0px 20px 0px 0px;
+}
+
+.gallery-other ul li:last-child {
+  margin: 0px 0px 0px 0px;
+}

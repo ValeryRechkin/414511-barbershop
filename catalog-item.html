@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>Барбершоп "Бородинский"</title>
-    <link href="css/style.css" rel="stylesheet">
-  </head>
-  <body>
-    <header>
-      <div class="top-menu">
+
+<head>
+  <meta charset="utf-8">
+  <title>Барбершоп "Бородинский"</title>
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="top-menu clearfix">
         <a href="index.html" class="header-logo">
           <img src="img/logo.png" alt="Логотип Барбершоп">
         </a>
         <nav class="top-navigation">
-          <ul>
+          <ul class="clearfix">
             <li><a href="#">Информация</a></li>
             <li><a href="#">Новости</a></li>
             <li><a href="#">Прайс-лист</a></li>
@@ -20,33 +23,38 @@
             <li><a href="#">Контакты</a></li>
           </ul>
         </nav>
-        <div class="user-area"> 
+        <div class="user-area">
           <a href="#">Вход</a>
         </div>
       </div>
-    </header>
-    <main>
-      <div class="page-title"> 
+    </div>
+  </header>
+  <main>
+    <div class="container clearfix">
+      <div class="page-title">
         <h1>Набор для путешествий «Baxter of California»</h1>
-        <ul class="bread-crumbs">
+        <ul class="bread-crumbs clearfix">
           <li><a href="#">Главная</a></li>
           <li><a href="#">Магазин</a></li>
           <li><a href="#">Средства по уходу</a></li>
           <li>Набор для путешествий «Baxter of California»</li>
         </ul>
       </div>
-      <div class="gallery">
+      <div class="gallery clearfix">
         <figure>
           <img src="img/layer8.png" width="460" height="460" alt="Набор для путешествий">
         </figure>
         <div class="gallery-other">
-          <img src="img/layer9.png" width="140" height="149" alt="Набор для путешествий">
-          <img src="img/layer10.png" width="140" height="149" alt="Набор для путешествий">
-          <img src="img/layer11.png" width="140" height="149" alt="Набор для путешествий">
+          <ul class="clearfix">
+            <li><img src="img/layer9.png" width="140" height="149" alt="Набор для путешествий"></li>
+            <li><img src="img/layer10.png" width="140" height="149" alt="Набор для путешествий"></li>
+            <li><img src="img/layer11.png" width="140" height="149" alt="Набор для путешествий"></li>
+          </ul>
+
         </div>
       </div>
-      <div class="description">
-        <div class="desicription-general">
+      <div class="description clearfix">
+        <div class="desicription-general clearfix">
           <span class="available yes">Есть в наличии</span>
           <span class="sku">Артикул: dexter-ae</span>
         </div>
@@ -66,12 +74,13 @@
           </ul>
         </div>
       </div>
-    </main>
-    <footer>
+    </div>
+  </main>
+  <footer>
+    <div class="container clearfix">
       <section class="about-us">
         <p>
-          БАРБЕРШОП «БОРОДИНСКИЙ»<br>
-          АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>
+          БАРБЕРШОП «БОРОДИНСКИЙ»<br> АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8<br>
           <a href="#">КАК НАС НАЙТИ?</a>
         </p>
       </section>
@@ -87,6 +96,8 @@
         <h4>Разработано:</h4>
         <a href="#">htmlacademy.ru</a>
       </section>
-    </footer>  
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
